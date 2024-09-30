@@ -1,0 +1,23 @@
+{
+  "name": "naruto-cli",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "bin": {
+    "naruto": "./bin/index.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "commander": "^12.1.0",
+    "download-git-repo": "^3.0.2",
+    "fs-extra": "^11.2.0",
+    "inquirer": "^11.1.0",
+    "ora": "^8.1.0"
+  }
+}
